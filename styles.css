@@ -266,7 +266,12 @@ footer{
 	background-color: hsl(233, 12%, 13%);
 }
 .pfoo{
-	display: none;
+	display: block;
+	width: 100%;
+	padding-top: 150px;
+	text-align: center;
+	text-indent: 150px;
+
 }
 .tof{
 	margin-left: 220px;
@@ -323,6 +328,7 @@ footer p{
 	color: hsl(0, 0%, 100%);
 }
 ::placeholder{
+
 	padding-left: 10%;
 }
 .done input,.done button{
@@ -358,7 +364,7 @@ footer p{
 	}
 	.ham{
 		display: block;
-		margin-left: 300px;
+		margin-left: 260px;
 		background-image: url(images/icon-hamburger.svg);
 
 
