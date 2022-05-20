@@ -262,7 +262,7 @@ p{
 }
 footer{
 	width: 100%;
-	height: 250px;
+	height: 300px;
 	background-color: hsl(233, 12%, 13%);
 }
 .pfoo{
@@ -305,11 +305,14 @@ footer{
 }
 .done{
 	margin-left: 20%;
+	display: block;
 }
 footer p{
+	display: block;
 	text-indent: 50px;
 	padding-top: 70px;
 	font-size: 14px;
+	width: 100%;
 }
 .done input{
 	width: 200px;
@@ -454,6 +457,9 @@ footer p{
 		height: 300px;
 		width: 300px;
 	}
+	.last .imgb1{
+		display: none;
+	}
 	.left h1{
 		font-size: 28px;
 		text-align: center;
@@ -479,7 +485,7 @@ footer p{
 	.imgb1{
 		width: 150px;
 		height: 150px;
-		left: 75%;
+		left: 60%;
 			
 	}
 	.what h1{
@@ -507,6 +513,9 @@ footer p{
 
 		float: left;
 		width: ;
+	}
+	.what .img1{
+		overflow-x: hidden;
 	}
 	.tim{
 		width: 100%;
@@ -562,7 +571,7 @@ footer p{
 		font-size: 18px;
 	}
 	footer{
-		height: 550px;
+		height: 570px;
 		display: flex;
 		flex-direction: column;
 	}
